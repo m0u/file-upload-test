@@ -73,7 +73,7 @@ fontcolor: Gold;
 
 
 <%  
-       File directory = new File("E:\\Researchwork_2021\\JSPworkspace\\fileUpload");
+       File directory = new File("E:\\git\\Files\\");
 
         //get all the files from a directory
         File[] fList = directory.listFiles();

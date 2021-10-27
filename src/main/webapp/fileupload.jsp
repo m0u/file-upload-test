@@ -72,6 +72,7 @@ fontcolor: Gold;
 <%  
        //File directory = new File("E:\\Researchwork_2021\\JSPworkspace\\fileUpload");
        File directory = new File("E:\\git\\Files\\");
+       //File directory = new File("Files\\");
         //get all the files from a directory
         File[] fList = directory.listFiles();
        
@@ -92,7 +93,7 @@ fontcolor: Gold;
                  </form>
                  <br/>
                  <br/>
-                 <br/>
+                 <br/>  
                  <form name="form1" action = "download" method = "get" enctype = "multipart/form-data">
                      
                     <font size="4"> Select a file to download in csv format <br/> <select name="sel">

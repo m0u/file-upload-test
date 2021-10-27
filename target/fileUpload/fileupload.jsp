@@ -70,13 +70,13 @@ fontcolor: Gold;
 
 <%@ page import= "java.io.*" %>
 <%  
-       File directory = new File("E:\\Researchwork_2021\\JSPworkspace\\fileUpload");
-
+       //File directory = new File("E:\\Researchwork_2021\\JSPworkspace\\fileUpload");
+       File directory = new File("E:\\git\\Files\\");
         //get all the files from a directory
         File[] fList = directory.listFiles();
        
  %>
-
+   
  
         
          <table width="80%" height= "90%" border="1px" bordercolor="#000080" cellpadding="0" cellspacing="0" decolor=""#E2FEFD>

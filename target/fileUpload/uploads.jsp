@@ -9,7 +9,7 @@
 <body>
 <%@ page import = "java.io.File" %>
 <%  
-File directory = new File("E:\\Researchwork_2021\\JSPworkspace\\fileUpload");
+File directory = new File("E:\\git\\Files\\");
 File[] fList = directory.listFiles();
 for(File file : fList)
     {

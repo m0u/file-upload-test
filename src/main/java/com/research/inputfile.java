@@ -10,7 +10,7 @@ import java.io.*;
  * Servlet implementation class inputfile
  */
 public class inputfile extends HttpServlet {
-	File directory = new File("D:\\SOFTWRE\\JSPworkspace\\fileUpload\\");
+	File directory = new File("E:\\git\\Files\\");
 
     //get all the files from a directory
     File[] fList = directory.listFiles();

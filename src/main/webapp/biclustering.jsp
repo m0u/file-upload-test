@@ -104,7 +104,7 @@ fontcolor: Gold;
            
                <td>
                
-                  <form  action = "select.jsp" method = "post" enctype = "multipart/form-data">
+                  <form  action ="select.jsp" method = "post" >
                     
                     <font size="4"> Select the file to perform biclustering  <br> <select name="sel">
                     <% for(File file : fList) { %>
@@ -129,3 +129,4 @@ fontcolor: Gold;
 
 
 
+1
