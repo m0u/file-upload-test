@@ -60,11 +60,11 @@ fontcolor: Gold;
 <!--<div class = "logo" <h3 style="color:white;">MYLOGO</h3></div>-->
 <!--Lets define the menu items now-->
 <div class = "mainmenu">
-
+<a href="index.jsp">Home</a>
 <a href="Technical documentation.jsp">Technical documentation</a>
 <a href="fileupload.jsp">Database</a>
 <a href="biclustering.jsp">Data mining</a>
-<a href="datavisualization.jsp">Data visualization</a>
+<!--<a href="datavisualization.jsp">Data visualization</a>-->
 <a href="aboutus.jsp">About us</a>
 </div>
 </nav>
@@ -106,7 +106,7 @@ fontcolor: Gold;
                
                   <form  action ="select.jsp" method = "post" >
                     
-                    <font size="4"> Select the file to perform biclustering  <br> <select name="sel">
+                    <font size="4"> Select the file to perform biclusters and generates rules  <br> <select name="sel">
                     <% for(File file : fList) { %>
                     <option value="<%= file.getName() %>"><%= file.getName() %></option>
                                 <% } %>
@@ -119,6 +119,7 @@ fontcolor: Gold;
                 
                </td>
              </tr>
+             
          </table>
          </center>
   

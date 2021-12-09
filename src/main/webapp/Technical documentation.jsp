@@ -56,7 +56,7 @@ fontcolor: Gold;
 <!--<div class = "logo" <h3 style="color:white;">MYLOGO</h3></div>-->
 <!--Lets define the menu items now-->
 <div class = "mainmenu">
-
+<a href="index.jsp">Home</a>
 <a href="Technical documentation.jsp">Technical documentation</a>
 <a href="fileupload.jsp">Database</a>
 <a href="biclustering.jsp">Data mining</a>
@@ -104,7 +104,7 @@ fontcolor: Gold;
                     <h3 style = "background: black; color: white">Knowledge discovery in Biodiversity Data: Introduction</h3>
                     <article>
                     <p>Biodiversity is essential for the economic and ecological security of human beings. 
-                    Since a few decades, biodiversity is being eroded in an alarming rate due to rapid urbanization and alteration of habitats as well. 
+                    Since the past few decades, biodiversity is being eroded in an alarming rate due to rapid urbanization and alteration of habitats as well. 
                     Thus conservation of ecosystem is in utmost need.</p>
                     <p> On the other hand, knowledge discovery in database (KDD) is the process of determining logical, unique, potentially useful, and obvious underlying patterns in data. 
                     KDD, in the domain of biodiversity can be termed as computational biodiversity that is the application of various statistical and algorithmic approaches on the biodiversity data. 

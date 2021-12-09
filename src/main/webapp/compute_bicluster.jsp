@@ -55,9 +55,23 @@ fontcolor: Gold;
 </style>
 </head>
 
-<body>
-
-
+<body bgcolor = bisque text=black>
+ <center>
+<!--Let us create a simple menu using the navigation tags-->
+<!--Use header to indicate that menu will be a part of header -->
+<header>
+<nav>
+<!--<div class = "logo" <h3 style="color:white;">MYLOGO</h3></div>-->
+<!--Lets define the menu items now-->
+<div class = "mainmenu">
+<a href="index.jsp">Home</a>
+<a href="Technical documentation.jsp">Technical documentation</a>
+<a href="fileupload.jsp">Database</a>
+<a href="biclustering.jsp">Data mining</a>
+<!--<a href="datavisualization.jsp">Data visualization</a>-->
+<a href="aboutus.jsp">About us</a>
+</div>
+</nav>
 <%
 String filename = (String)session.getAttribute("thefilename");
 String delimeter = request.getParameter("delimiter");

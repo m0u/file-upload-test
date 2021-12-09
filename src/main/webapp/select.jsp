@@ -59,7 +59,23 @@ fontcolor: Gold;
 out.println("Input file is : " + filename);
 session.setAttribute("thefilename", filename);
 %>
-<body bgcolor="white">
+<body bgcolor="white" text=black>
+<center>
+<!--Let us create a simple menu using the navigation tags-->
+<!--Use header to indicate that menu will be a part of header -->
+<header>
+<nav>
+<!--<div class = "logo" <h3 style="color:white;">MYLOGO</h3></div>-->
+<!--Lets define the menu items now-->
+<div class = "mainmenu">
+<a href="index.jsp">Home</a>
+<a href="Technical documentation.jsp">Technical documentation</a>
+<a href="fileupload.jsp">Database</a>
+<a href="biclustering.jsp">Data mining</a>
+<!--<a href="datavisualization.jsp">Data visualization</a>-->
+<a href="aboutus.jsp">About us</a>
+</div>
+</nav>
 <form action = "compute_bicluster.jsp" >
 <h3> Please specify the parameters for biclustering </h3>
 <pre> 
@@ -120,8 +136,8 @@ session.setAttribute("thefilename", filename);
         </td>
         <td  style="padding-left:10px;">
             <select name="s1">
-            <option value="true">true</option>
-            <option value="false">false</option>   
+            <option value="true" >true</option>
+            <!--  <option value="false">false</option>   -->
             </select>
         </td>
       </tr>
